@@ -1,0 +1,9 @@
+<div id="desk" class="desk">
+    <% for(let index = 1 ; index < 10 ; index++) { %>
+    <div id='desk_item_<%= index %>' onclick="selectItem('#desk_item_<%= index %>')" class="desk-item free">
+        <div></div>
+    </div>
+    <% } %>
+
+    <button class="end" onclick="endTheGame()">END</button>
+</div>

@@ -1,0 +1,92 @@
+div.point {
+
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin-top: 2%;
+    margin-left: 5%;
+    text-align: center;
+    border: 1px solid red;
+
+}
+
+div.chose-point{
+    width: 100px;
+    height: 50px;
+    margin-left: 46%;
+    position: absolute;
+}
+
+
+div.point div{
+    position: relative;
+    margin-top: 10px;
+    user-select: none;
+}
+
+h2{
+    user-select: none;
+}
+div.point:hover{
+    border: 1px solid black;
+}
+
+.active{
+    border: 1px solid black !important;
+}
+
+.init{
+    margin-top: 50px;
+}
+
+button.start{
+    margin-left: 48%;
+    margin-top: 5%;
+}
+button.history{
+    margin-left: 47%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+button.end{
+    margin-top: 40px;
+    margin-left: 40%;
+}
+div.desk {
+    width: 300px;
+    height: 350px;
+    border: 1px solid darkslategrey;
+    margin-left:39%;
+    margin-top: 40px;
+    background: darkslategrey;
+
+}
+
+div.desk-item{
+    margin: 4px;
+    width: 90px;
+    height: 90px;
+    background: white;
+    float: left;
+    user-select: none;
+    border: 1px solid black;
+    user-select: none;
+    text-align: center;
+}
+
+div.desk-item div{
+    margin-top: 27%;
+    font-size: 40px;
+}
+
+div.free:hover{
+    background: wheat !important;
+}
+
+.busy:hover{
+    background: crimson !important;
+}
+
+p {
+    height: 5px;
+}
