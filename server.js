@@ -17,6 +17,7 @@ app.set('view engine', 'ejs');
 MongoClient.connect(mongoUrl, {"useNewUrlParser": true}, (err, dbClient) => {
 
     if(err){
+        console.log(mongoUrl);
         console.log("error on db connect");
         return;
     }

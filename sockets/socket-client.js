@@ -20,7 +20,6 @@ module.exports = function (client, dbClient) {
     });
 
     client.on('getHistory', () => {
-        console.log("get histiry");
         dbClient.db('xo')
             .collection('historyXo')
             .find().forEach(row => {
